@@ -6,6 +6,24 @@ import random
 import re
 import sys
 
+
+'''
+Input Format
+
+The first line contains an integer, n , the size of the array a. 
+The second line contains n space-separated integers a[i].
+
+
+Output Format
+
+You must print the following three lines of output:
+
+Array is sorted in numSwaps swaps., where numSwaps is the number of swaps that took place.
+First Element: firstElement, where firstElement is the first element in the sorted array.
+Last Element: lastElement, where lastElement is the last element in the sorted array.
+
+
+'''
 # Complete the countSwaps function below.
 def countSwaps(a):
     n = len(a)
